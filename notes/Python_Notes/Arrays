@@ -1,1 +1,29 @@
+What is an array? 
+    A data structure that can hold more than one value at a time
+    An ordered series of elements of the same type
+ 
+Arrays vs lists:
+    Store data the same
+    Arrays only take a sinlge data type; Lists take multiple data types
 
+Creating arrays in Python:
+    1) For integers
+        Import array module:
+          a) import array (without alias)
+          b) import array as arr (with alias)
+          c) from array import* (with *)
+    2) For any other type
+        array_name = []
+        
+Array functions:
+    1) Finding the length
+        len(array_name)
+    2) Adding elements
+        a) append() - Adds an element to the end
+        b) extend() - Adds more than one element to the end
+        c) insert() - Adds an element in a specific position
+            insert(index_num,new_num)
+    3) Removing elements
+        a) pop() - removes an element at the end and returns it
+        b) pop(index_value_you_want_removed) - removes a specific element and returns it
+        b) remove(element_you_want_removed) - removes a specific element without returning it
